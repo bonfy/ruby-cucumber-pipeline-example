@@ -1,0 +1,58 @@
+[
+  {
+    "uri": "features/search.feature",
+    "id": "site-search",
+    "keyword": "Feature",
+    "name": "Site Search",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "site-search;",
+        "keyword": "Scenario",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "We navigate to the homepage",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/search_step.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4884687000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "We search for the word agile",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/search_step.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1900508000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "The results for the search will be displayed",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/search_step.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21876000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

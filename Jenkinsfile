@@ -19,7 +19,7 @@ pipeline {
                     try {
                         sh "cucumber -p ci"
                     } finally {
-                        cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'log', sortingMethod: 'ALPHABETICAL'
+                        cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'logs', sortingMethod: 'ALPHABETICAL'
                     }
                 }
             }
